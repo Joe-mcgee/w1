@@ -8,4 +8,6 @@
 
 *initialize a new variable*
 a function is a named code that can be given an inputs and gives an output
-
+a workflow to practice
+  inside file, define a function
+  
