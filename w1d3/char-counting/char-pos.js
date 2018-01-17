@@ -4,9 +4,9 @@ function countLetters(string) {
   for (var i = 0; i < strArr.length; i++) {
     var letter = strArr[i];
     if (lettersObj.hasOwnProperty(letter)) {
-      lettersObj[letter] += 1;
+      lettersObj[letter].push(i);
     } else {
-      lettersObj[letter] = 1;
+      lettersObj[letter] = [i];
     }
   }
   return lettersObj;
